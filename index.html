@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atatürk Bilgi Yarışması</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Soruların birbirine karışmaması için basit bir ara boşluk */
+        .question-block { margin-bottom: 30px; padding: 15px; border-bottom: 1px solid #ddd; }
+        button { cursor: pointer; padding: 8px 15px; margin-right: 5px; }
+    </style>
+</head>
+<body>
+    <div class="quiz-box">
+        <h1>Atatürk Bilgi Yarışması (15 Soru)</h1>
+
+        <div class="question-block">
+            <h2>1- Atatürk kaç yılında doğdu?</h2>
+            <button onclick="alert('Doğru!')">A- 1881</button>
+            <button onclick="alert('Yanlış')">B- 1882</button>
+        </div>
+
+        <div class="question-block">
+            <h2>2- Cumhuriyet kaç yılında ilan edildi?</h2>
+            <button onclick="alert('Yanlış')">A- 1920</button>
+            <button onclick="alert('Doğru!')">B- 1923</button>
+        </div>
+
+        <div class="question-block">
+            <h2>3- Atatürk'ün nüfusa kayıtlı olduğu il hangisidir?</h2>
+            <button onclick="alert('Doğru!')">A- Gaziantep</button>
+            <button onclick="alert('Yanlış')">B- Ankara</button>
+        </div>
+
+        <div class="question-block">
+            <h2>4- İlk TBMM ne zaman açıldı?</h2>
+            <button onclick="alert('Doğru!')">A- 23 Nisan 1920</button>
+            <button onclick="alert('Yanlış')">B- 29 Ekim 1923</button>
+        </div>
+
+        <div class="question-block">
+            <h2>5- Atatürk'ün köpeğinin adı nedir?</h2>
+            <button onclick="alert('Yanlış')">A- Çakır</button>
+            <button onclick="alert('Doğru!')">B- Foks</button>
+        </div>
+
+        <div class="question-block">
+            <h2>6- Atatürk nerede doğmuştur?</h2>
+            <button onclick="alert('Doğru!')">A- Selanik</button>
+            <button onclick="alert('Yanlış')">B- Manastır</button>
+        </div>
+
+        <div class="question-block">
+            <h2>7- "Ordular, ilk hedefiniz Akdeniz'dir. İleri!" emri hangi savaşta verilmiştir?</h2>
+            <button onclick="alert('Yanlış')">A- Sakarya Meydan Muharebesi</button>
+            <button onclick="alert('Doğru!')">B- Büyük Taarruz</button>
+        </div>
+
+        <div class="question-block">
+            <h2>8- Atatürk'ün en büyük eserim dediği hangisidir?</h2>
+            <button onclick="alert('Doğru!')">A- Cumhuriyet</button>
+            <button onclick="alert('Yanlış')">B- Nutuk</button>
+        </div>
+
+        <div class="question-block">
+            <h2>9- Şapka İnkılabı hangi ilimizde ilan edilmiştir?</h2>
+            <button onclick="alert('Yanlış')">A- İzmir</button>
+            <button onclick="alert('Doğru!')">B- Kastamonu</button>
+        </div>
+
+        <div class="question-block">
+            <h2>10- Atatürk'ün annesinin adı nedir?</h2>
+            <button onclick="alert('Doğru!')">A- Zübeyde Hanım</button>
+            <button onclick="alert('Yanlış')">B- Makbule Hanım</button>
+        </div>
+
+        <div class="question-block">
+            <h2>11- "Kemal" adını hangi okuldayken almıştır?</h2>
+            <button onclick="alert('Yanlış')">A- Mahalle Mektebi</button>
+            <button onclick="alert('Doğru!')">B- Askeri Rüştiye</button>
+        </div>
+
+        <div class="question-block">
+            <h2>12- Atatürk'ün yazdığı geometri kitabı var mıdır?</h2>
+            <button onclick="alert('Doğru!')">A- Evet</button>
+            <button onclick="alert('Yanlış')">B- Hayır</button>
+        </div>
+
+        <div class="question-block">
+            <h2>13- Soyadı Kanunu ile kendisine "Atatürk" soyadı kaç yılında verilmiştir?</h2>
+            <button onclick="alert('Yanlış')">A- 1930</button>
+            <button onclick="alert('Doğru!')">B- 1934</button>
+        </div>
+
+        <div class="question-block">
+            <h2>14- Kurtuluş Savaşı'nı başlatan olay hangisidir?</h2>
+            <button onclick="alert('Doğru!')">A- Atatürk'ün Samsun'a çıkışı</button>
+            <button onclick="alert('Yanlış')">B- Amasya Genelgesi</button>
+        </div>
+
+        <div class="question-block">
+            <h2>15- Atatürk nerede vefat etmiştir?</h2>
+            <button onclick="alert('Yanlış')">A- Anıtkabir</button>
+            <button onclick="alert('Doğru!')">B- Dolmabahçe Sarayı</button>
+        </div>
+
+    </div>
+<div class="score-box">
+   <p id="score">20</p>
+</div>
+ <button onclick="sıfırla()">Sıfırla</button>
+<progress id="bar"
+<script src="index.js"></script>
+</body>
+</html>
